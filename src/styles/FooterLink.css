@@ -1,3 +1,16 @@
+.footer-link {
+    margin: 0.2rem 0;
+}
+
+.footer-link>a {
+    cursor: pointer;
+}
+
+.footer-link>a:hover {
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
 /* For Medium Mobile Phones */
 @media (min-width: 576px) {}
 
