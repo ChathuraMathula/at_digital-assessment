@@ -4,7 +4,7 @@ import ServiceInfoCardPicture from "../service_info_card/ServiceInfoCardPictureC
 
 export default function ConsultingServiceCard() {
     return (
-        <section>
+        <section className="consulting-service-card__container">
             <ServiceInfoCardPicture
                 alt="magnifier illustration"
                 defaultSrc="./assets/images/magnifier-image-xl.png"

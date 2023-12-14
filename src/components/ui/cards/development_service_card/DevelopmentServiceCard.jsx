@@ -4,7 +4,7 @@ import ServiceInfoCardPicture from "../service_info_card/ServiceInfoCardPictureC
 
 export default function DevelopmentServiceCard() {
     return (
-        <section>
+        <section className="development-service-card__container">
             <ServiceInfoCardPicture
                 alt="computer illustration"
                 defaultSrc="./assets/images/computer-image-xl.png"
