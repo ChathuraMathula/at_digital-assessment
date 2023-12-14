@@ -1,17 +1,16 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
-/* For Small Mobile Phones */
+/* For Medium Mobile Phones */
 @media (min-width: 375px) {}
 
-/* For Medium Mobile Phones */
+/* For Large Mobile Phones & Tablets */
 @media (min-width: 768px) {}
 
-/* For Tablets & Laptops */
+/* For Laptops */
 @media (min-width: 1200px) {}
 
 /* For Large screens */

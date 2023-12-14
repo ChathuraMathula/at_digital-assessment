@@ -1,0 +1,27 @@
+.naviagation_button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /* Set background to transparent */
+    cursor: pointer;
+
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.naviagation_button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+.naviagation_button>svg {
+    width: 100%;
+    height: 100%;
+}
