@@ -31,9 +31,13 @@
     }
 
     .footer-link__container {
-        width: 25%;
+        width: 20%;
     }
 }
 
 /* For Large screens */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .footer-link__container {
+        justify-self: flex-end;
+    }
+}

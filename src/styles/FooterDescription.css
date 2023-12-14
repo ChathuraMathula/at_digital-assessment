@@ -28,4 +28,9 @@
 }
 
 /* For Large screens */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .footer-description__container {
+        width: 30%;
+        margin-right: 250px;
+    }
+}

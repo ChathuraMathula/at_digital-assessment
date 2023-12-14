@@ -36,6 +36,10 @@
 
 /* For Medium Mobile Phones */
 @media (min-width: 576px) {
+    .footer-terms-navigation__container>div>a {
+        padding: 0 1rem;
+    }
+
     .footer-terms-navigation__container {
         padding: 0 1.5rem;
     }
