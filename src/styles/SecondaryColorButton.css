@@ -1,26 +1,26 @@
-.naviagation_button {
+.secondary-color__button {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     border: none;
     outline: none;
-    background-color: transparent;
+    padding: 12px 20px;
+
+    background-color: #F28D35;
+    border-radius: 4px;
     cursor: pointer;
 
-    height: 2.5rem;
-    width: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
 }
 
-.naviagation_button:hover {
+.secondary-color__button:hover {
     cursor: pointer;
     opacity: 0.8;
     transition: all 0.4s;
-}
-
-.naviagation_button>svg {
-    width: 100%;
-    height: 100%;
 }
