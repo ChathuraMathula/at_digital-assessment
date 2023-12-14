@@ -1,4 +1,5 @@
 import "../../../../styles/ConsultingServiceCard.css"
+import ServiceInfoCard from "../service_info_card/ServiceInfoCard";
 import ServiceInfoCardPicture from "../service_info_card/ServiceInfoCardPictureContainer";
 
 export default function ConsultingServiceCard() {
@@ -12,6 +13,13 @@ export default function ConsultingServiceCard() {
                 lImageSrc="./assets/images/magnifier-image-l.png"
                 xlImageSrc="./assets/images/magnifier-image-xl.png"
             />
+            <ServiceInfoCard title="Digital Strategy Consulting" >
+                Your digital strategy should complement the overall marketing strategy
+                of the company. In online marketing, each component will never work in
+                isolation and every business needs a different mix. We provide a clear
+                concept and strategic overview to find the most efficient model for your
+                business.
+            </ServiceInfoCard>
         </section>
     );
 }
