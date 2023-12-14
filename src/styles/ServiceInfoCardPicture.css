@@ -1,11 +1,27 @@
+.service__image>img {
+    width: 275px;
+    height: 275px;
+}
+
 /* For Medium Mobile Phones */
 @media (min-width: 576px) {}
 
 /* For Large Mobile Phones & Tablets */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .service__image>img {
+        width: 346px;
+        height: 346px;
+    }
+
+}
 
 /* For Laptops */
 @media (min-width: 992px) {}
 
 /* For Large screens */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .service__image>img {
+        width: 415px;
+        height: 415px;
+    }
+}

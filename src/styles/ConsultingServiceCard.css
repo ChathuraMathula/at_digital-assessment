@@ -5,6 +5,8 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
+        max-width: 850px;
+        margin: 0 auto;
     }
 }
 
@@ -12,7 +14,15 @@
 @media (min-width: 768px) {}
 
 /* For Laptops */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .consulting-service-card__container {
+        max-width: 950px;
+    }
+}
 
 /* For Large screens */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .consulting-service-card__container {
+        max-width: 1050px;
+    }
+}

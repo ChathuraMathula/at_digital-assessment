@@ -21,7 +21,19 @@
 }
 
 /* For Medium Mobile Phones */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .service-info-card__container {
+        align-items: start;
+    }
+
+    .service-info-card__container>h2 {
+        text-align: start;
+    }
+
+    .service-info-card__container>p {
+        text-align: start;
+    }
+}
 
 /* For Large Mobile Phones & Tablets */
 @media (min-width: 768px) {}

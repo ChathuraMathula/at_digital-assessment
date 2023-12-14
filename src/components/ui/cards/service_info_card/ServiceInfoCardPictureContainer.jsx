@@ -9,7 +9,7 @@ export default function ServiceInfoCardPicture({
     xlImageSrc
 }) {
     return (
-        <picture className="consulting-service__image" >
+        <picture className="service__image" >
             <source media="(max-width:576px)" srcSet={xsImageSrc} />
             <source media="(max-width:768px)" srcSet={sImageSrc} />
             <source media="(max-width:992px)" srcSet={lImageSrc} />
