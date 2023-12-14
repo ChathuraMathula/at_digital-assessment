@@ -4,13 +4,25 @@ footer {
 }
 
 /* For Medium Mobile Phones */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    footer {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 /* For Large Mobile Phones & Tablets */
 @media (min-width: 768px) {}
 
 /* For Laptops */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    footer {
+        padding: 2rem;
+        align-items: start;
+        justify-content: space-between;
+    }
+}
 
 /* For Large screens */
 @media (min-width: 1200px) {}

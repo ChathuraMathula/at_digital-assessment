@@ -2,6 +2,7 @@ import "../../styles/Footer.css";
 import FooterDescription from "./FooterDescription";
 import FooterLink from "./FooterLink";
 import FooterLinkContainer from "./FooterLinkContainer";
+import FooterTermsNavigation from "./FooterTermsNavigation";
 
 export default function Footer() {
     return (
@@ -22,6 +23,7 @@ export default function Footer() {
                 <FooterLink>Google Marketing solutions</FooterLink>
                 <FooterLink>Search Engine Optimization</FooterLink>
             </FooterLinkContainer>
+            <FooterTermsNavigation />
         </footer>
     );
 }

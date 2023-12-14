@@ -15,13 +15,25 @@
 }
 
 /* For Medium Mobile Phones */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .footer-link__container {
+        width: 50%;
+    }
+}
 
 /* For Large Mobile Phones & Tablets */
 @media (min-width: 768px) {}
 
 /* For Laptops */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .footer-link__container>h3 {
+        margin-top: 0;
+    }
+
+    .footer-link__container {
+        width: 25%;
+    }
+}
 
 /* For Large screens */
 @media (min-width: 1200px) {}
