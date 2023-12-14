@@ -1,0 +1,11 @@
+/* For Medium Mobile Phones */
+@media (min-width: 576px) {}
+
+/* For Large Mobile Phones & Tablets */
+@media (min-width: 768px) {}
+
+/* For Laptops */
+@media (min-width: 992px) {}
+
+/* For Large screens */
+@media (min-width: 1200px) {}
