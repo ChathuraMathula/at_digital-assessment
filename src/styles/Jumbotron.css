@@ -1,7 +1,12 @@
-#root {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+.jumbotron__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.jumbotron__image {
+    background-image: url('./assets/images/main-image-xs.png');
+    height: auto;
 }
 
 /* For Medium Mobile Phones */

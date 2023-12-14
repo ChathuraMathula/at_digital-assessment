@@ -48,10 +48,19 @@ header>img {
 }
 
 /* For Medium Mobile Phones */
-@media (min-width: 375px) {}
+@media (min-width: 576px) {
+    header {
+        background-color: #6B3CC9;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-/* For Large Mobile Phones & Tablets */
-@media (min-width: 768px) {
+    header>img {
+        height: 1.5rem;
+    }
+
     .header-navigation__button {
         display: none !important;
     }
@@ -77,10 +86,10 @@ header>img {
     }
 
     .header-navigation__list li {
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: white;
         width: fit-content;
-        padding: 0 0.5rem;
+        padding: 0 0.3rem;
         cursor: pointer;
     }
 
@@ -89,8 +98,19 @@ header>img {
     }
 }
 
+/* For Large Mobile Phones & Tablets */
+@media (min-width: 768px) {
+    header>img {
+        height: 2rem;
+    }
+
+    .header-navigation__list li {
+        font-size: 1rem;
+    }
+}
+
 /* For Laptops */
-@media (min-width: 1200px) {}
+@media (min-width: 992px) {}
 
 /* For Large screens */
-@media (min-width: 1440px) {}
+@media (min-width: 1200px) {}
