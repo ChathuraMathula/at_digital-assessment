@@ -5,12 +5,12 @@ export default function ConsultingServiceCard() {
     return (
         <section>
             <ServiceInfoCardPicture
-                alt="computer illustration"
-                defaultSrc="./assets/images/computer-image-xl.png"
-                xsImageSrc="./assets/images/computer-image-xs.png"
-                sImageSrc="./assets/images/computer-image-s.png"
-                lImageSrc="./assets/images/computer-image-l.png"
-                xlImageSrc="./assets/images/computer-image-xl.png"
+                alt="magnifier illustration"
+                defaultSrc="./assets/images/magnifier-image-xl.png"
+                xsImageSrc="./assets/images/magnifier-image-xs.png"
+                sImageSrc="./assets/images/magnifier-image-s.png"
+                lImageSrc="./assets/images/magnifier-image-l.png"
+                xlImageSrc="./assets/images/magnifier-image-xl.png"
             />
         </section>
     );

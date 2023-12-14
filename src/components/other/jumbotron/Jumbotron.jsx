@@ -5,10 +5,10 @@ export default function Jumbotron() {
     return (
         <div className="jumbotron__container">
             <picture className="jumbotron__image" >
-                <source media="(max-width:576px)" srcset="./assets/images/main-image-xs.png" />
-                <source media="(max-width:768px)" srcset="./assets/images/main-image-s.png" />
-                <source media="(max-width:992px)" srcset="./assets/images/main-image-l.png" />
-                <source media="(min-width:1200px)" srcset="./assets/images/main-image-xl.png" />
+                <source media="(max-width:576px)" srcSet="./assets/images/main-image-xs.png" />
+                <source media="(max-width:768px)" srcSet="./assets/images/main-image-s.png" />
+                <source media="(max-width:992px)" srcSet="./assets/images/main-image-l.png" />
+                <source media="(min-width:1200px)" srcSet="./assets/images/main-image-xl.png" />
                 <img alt="jumbotron image" src="./assets/images/main-image-xl.png" />
             </picture>
             <div className="jumbotron-heading__container">
