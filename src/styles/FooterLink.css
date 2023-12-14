@@ -4,6 +4,8 @@
 
 .footer-link>a {
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .footer-link>a:hover {
