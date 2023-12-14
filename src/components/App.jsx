@@ -1,4 +1,5 @@
 import '../styles/App.css'
+import Footer from './footer/Footer'
 import Header from './header/Header'
 import Jumbotron from './other/jumbotron/Jumbotron'
 import ConsultingServiceCard from './ui/cards/consulting_service_card/ConsultingServiceCard'
@@ -12,6 +13,7 @@ function App() {
       <Jumbotron />
       <DevelopmentServiceCard />
       <ConsultingServiceCard />
+      <Footer />
     </>
   )
 }
