@@ -113,4 +113,8 @@ header>img {
 @media (min-width: 992px) {}
 
 /* For Large screens */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    header {
+        padding: 15px 2rem;
+    }
+}
