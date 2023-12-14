@@ -1,7 +1,11 @@
-.development-service-card__container {}
-
 /* For Medium Mobile Phones */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .development-service-card__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
 /* For Large Mobile Phones & Tablets */
 @media (min-width: 768px) {}

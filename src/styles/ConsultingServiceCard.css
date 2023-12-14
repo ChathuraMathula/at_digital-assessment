@@ -1,7 +1,12 @@
-.consulting-service-card__container {}
-
 /* For Medium Mobile Phones */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .consulting-service-card__container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
 /* For Large Mobile Phones & Tablets */
 @media (min-width: 768px) {}
