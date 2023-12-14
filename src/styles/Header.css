@@ -108,11 +108,16 @@ header>img {
 
     .header-navigation__list li {
         font-size: 1rem;
+        padding: 0 0.5rem;
     }
 }
 
 /* For Laptops */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .header-navigation__list li {
+        padding: 0 1rem;
+    }
+}
 
 /* For Large screens */
 @media (min-width: 1200px) {
